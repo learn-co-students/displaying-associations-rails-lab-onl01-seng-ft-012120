@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+artist = Artist.create(name: "Greta Van Fleet")
+
+artist.songs.build(title: "Age of Man")
+artist.songs.build(title: "When the Curtain Falls")
